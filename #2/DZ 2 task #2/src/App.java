@@ -8,7 +8,7 @@ public class App {
         // Проходжу по масиву символів
         for (int i = 0; i < digits.length; i++) {
             // конвертую елемент за індексом i з типу char в тип int і додаю його до сумми
-            sum = sum += Character.getNumericValue(digits[i]);
+            sum += Character.getNumericValue(digits[i]);
         }
         return sum;
 
